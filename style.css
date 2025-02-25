@@ -4,7 +4,7 @@
     --caput-mortuum: #442220;
     --moss-green: #809848;
     --olivine: #b0ca87;
-    --celadon: #b5dead;
+    --celadon: #b4deab;
 }
 
 
@@ -14,7 +14,6 @@ body {
     text-align: center;
     padding-top: 50px; /* Prevents content from being hidden behind navbar */
     margin: 0;
-
     background-color: var(--celadon);
     color: var(--dark-purple);
 
@@ -33,10 +32,10 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #442220;
+    background-color: var(--celadon);
     padding: 10px 0;
     z-index: 1000; /* Keeps navbar above other elements */
-    background-color: var(--caput-mortuum);
+    /* background-color: var(--caput-mortuum); */
 }
 
 nav ul {
@@ -51,7 +50,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--celadon);
+    color: var(--caput-mortuum);
+    /* color: var(--celadon); */
     text-decoration: none;
     font-weight: bold;
     padding: 10px; /* Adds some padding for better clickability */
@@ -67,12 +67,12 @@ nav ul li a:hover {
 /* Intro Section */
 .intro {
     color: white;
-    background: #FFFFFF;
+    background: #b4deab;;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    height: 70vh; /* Full screen height */
+    height: 45vh; /* Full screen height */
     padding-top: 0;
     min-height: 15vh; /* Reduce the minimum height */
     padding-top: 20vh; /* Reduce top padding */
@@ -200,6 +200,7 @@ nav ul li a:hover {
 /* Footer */
 footer {
     padding: 20px;
+    /* background: var(--olivine); */
     background: #442220;
     color: white;
     line-height: 15px;
